@@ -1,7 +1,7 @@
 # Verificador de Site Seguro 🛡️
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/yjony/verificador-de-site)
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/yjony/verificador_de_site)
 
 Uma extensão para o Google Chrome que permite ao usuário verificar se o site atual está em uma lista pessoal de sites confiáveis, garantindo uma navegação mais segura.
 
