@@ -53,12 +53,14 @@ A extensão aparecerá na sua barra de ferramentas, pronta para ser usada.
 ## 📁 Estrutura do Projeto
 
 O projeto é organizado da seguinte forma para facilitar a manutenção e escalabilidade:
+``` 
 verificador-de-site/
 ├── assets/
 │   ├── css/
 │   ├── js/
 │   └── images/
 └── ... (arquivos html, json)
+``` 
 ## 💻 Tecnologias Utilizadas
 
 * HTML5
