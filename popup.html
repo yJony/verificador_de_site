@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verificador de Site</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/popup.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+        <button id="optionsButton" class="add-url-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+            </svg>
+        </button>
+
+        <div class="header">
+            <svg xmlns="http://www.w3.org/2000/svg" class="header-icon" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+            <h3>Verificador de Site</h3>
+        </div>
+
+        <div class="status-container">
+            <label class="checkbox-container">
+                <span class="status-text">Site usa HTTPS</span>
+                <input type="checkbox" id="httpsCheckbox" disabled>
+                <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <p id="result"></p>
+
+        <hr class="divider">
+
+        <button id="checkButton">Verificar Segurança</button>
+
+    </div>
+    <script src="assets/js/popup.js"></script>
+</body>
+</html>
